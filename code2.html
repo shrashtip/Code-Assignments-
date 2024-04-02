@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Flowers School</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #ebc1a3; /* Light Brown color as given*/
+        }
+        .student-photo img {
+            max-width: 150px; /* Adjust the maximum width as needed */
+            height: auto;
+            display: block;
+            margin: 0 ; /* Center the image horizontally */
+            margin-top: 60px;
+        }
+        .student-info {
+            text-align: center;
+            margin-top: 30px; /* Add margin to separate student info from photo */
+        }
+        .welcome-section {
+            text-align: center;
+            padding: 100px 0;
+        }
+        .welcome-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+  
+        }
+        .welcome-section p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .section {
+            display: none;
+        }
+        .logo {
+            margin-bottom: 50px; /* Add margin below the logo */
+        }
+        .logo img {
+            max-width: 100px; /* Increase the size of the logo */
+            height: auto;
+        }
+        main {
+            margin-top: 10px; /* Add margin at the top of the main content */
+        }
+        .student-details {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><b>Spring Flowers School</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"><b>About</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#studentProfile"><b>Student Profile</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#timetable"><b>TimeTable</b></a> <!-- Updated TimeTable button -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"><b>Contact</b></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="logo">
+            <img src="C:\Users\NM\Downloads/LOGO.jpeg" alt="School Logo" align="left" class="img-fluid">
+        </div>
+    </header>
+    <main>
+        <section class="section" id="home" style="display: block;">
+            <div class="container welcome-section">
+                <h2>Welcome to Spring Flowers School</h2>
+                <br>
+                <p>We appreciate your interest coming here</p>
+                <p>You can go to School, student profiles, and contact details.</p>
+            </div>
+        </section>
+        <section align="center" class="section" id="about">
+            <div class="container">
+                <br>
+                <h2>About Spring Flowers School</h2>
+                <br>
+                <p>Spring Flowers School is a nurturing hub dedicated to fostering cohesion and innovation among young minds. With a vibrant curriculum and interactive learning environment, we inspire creativity and collaboration, empowering students to thrive in an ever-evolving world. Join us on a journey of exploration and growth, where each bloom at our school blossoms with confidence and ingenuity.. <br><br>Located in the School is ULTIMATE for Guiding ppl and Slow and Steady Understanding that leads to Sucessful Alunmunis !!! with an Amazing Track record and Future  </p>
+            </div>
+        </section>
+        <section class="student-details section" id="studentProfile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="student-photo">
+                            <img src="C:\Users\NM\Downloads/SHNL dp.jpg" alt="Student Photo" class="img-fluid">
+                        </div>
+                        <div class="student-info">
+                            <h2>Shrashti Purohit</h2>
+                            <br>
+                            <p>Class      : 12th Grade</p>
+                            <p>Roll Number: 123456</p>
+                            <p>DOB        : January 19, 2005</p>
+                            <p>Address    : 122 Shubham Greens Extension</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="timetable"> <!-- TimeTable section -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Time Table</h2>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Day</th>
+                                    <th>Time</th>
+                                    <th>Subject</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday</td>
+                                    <td>8:00 AM - 11:00 AM</td>
+                                    <td>Math</td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday</td>
+                                    <td>9:00 AM - 1:00 PM</td>
+                                    <td>Physics</td>
+                                </tr>
+                                <tr>
+                                    <td>Wednesday</td>
+                                    <td>1:00 PM - 4:00 PM</td>
+                                    <td>Chem</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Thursday</td>
+                                    <td>2:00 PM - 5:00 PM</td>
+                                    <td>Bio</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Friday</td>
+                                    <td>1:00 PM - 4:00 PM</td>
+                                    <td>English</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>10:00 AM - 2:00 PM</td>
+                                    <td>Hindi</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section align="center" class="section" id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <br>
+                <p>Spring Flowers School</p>
+                <p>Address : 122 Shubham Greens Extension</p>
+                <p>Phone Number : +91562392932</p>
+                <p>Email : SpringFlowerSchool@gmail.com</p>
+                <br>
+               
+            </div>
+        </section>
+    </main>
+    <!-- Bootstrap JS (optional, only if you need it) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // JavaScript to show only the clicked section
+        document.addEventListener("DOMContentLoaded", function() {
+            const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const sections = document.querySelectorAll('.section');
+                    sections.forEach(section => {
+                        if (section.id === targetId) {
+                            section.style.display = 'block';
+                        } else {
+                            section.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
